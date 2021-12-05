@@ -1,7 +1,7 @@
 # pip3
 
 > Gestionnaire des paquets pour Python.
-> Plus d'informations: <https://pip.pypa.io>.
+> Plus d'informations : <https://pip.pypa.io>.
 
 - Recherche un paquet :
 
@@ -29,7 +29,7 @@
 
 - Installe des paquets à partir d'un fichier :
 
-`pip3 install --requirements {{requirements.txt}}`
+`pip3 install --requirement {{requirements.txt}}`
 
 - Affiche les informations d'un paquet installé :
 

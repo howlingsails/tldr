@@ -1,6 +1,7 @@
 # tail
 
 > Display the last part of a file.
+> More information: <https://www.gnu.org/software/coreutils/tail>.
 
 - Show last 'num' lines in file:
 
@@ -18,7 +19,7 @@
 
 `tail -f {{file}}`
 
-- Keep reading file until `Ctrl + C`, even if the file is rotated:
+- Keep reading file until `Ctrl + C`, even if the file is inaccessible:
 
 `tail -F {{file}}`
 

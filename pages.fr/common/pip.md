@@ -1,7 +1,8 @@
 # pip
 
 > Gestionnaire des paquets pour Python.
-> Plus d'informations: <https://pip.pypa.io>.
+> Certaines commandes comme `pip install` ont leur propre documentation.
+> Plus d'informations : <https://pip.pypa.io>.
 
 - Installe un paquet :
 
@@ -11,9 +12,13 @@
 
 `pip install {{paquet}}=={{version}}`
 
+- Installe un paquet dans le répertoire utilisateur au lieu de l'emplacement par défaut système :
+
+`pip install --user {{paquet}}`
+
 - Met à jour un paquet :
 
-`pip install -U {{paquet}}`
+`pip install --upgrade {{paquet}}`
 
 - Désinstalle un paquet :
 
@@ -25,7 +30,7 @@
 
 - Installe des paquets à partir d'un fichier :
 
-`pip install -r {{requirements.txt}}`
+`pip install --requirement {{requirements.txt}}`
 
 - Affiche les informations d'un paquet installé :
 

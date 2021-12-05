@@ -2,7 +2,7 @@
 
 > Git command for listing references in a remote repository based on name or URL.
 > If no name or URL are given, then the configured upstream branch will be used, or remote origin if the former is not configured.
-> More information: <https://git-scm.com/docs/git-ls-remote.html>.
+> More information: <https://git-scm.com/docs/git-ls-remote>.
 
 - Show all references in the default remote repository:
 
@@ -16,7 +16,7 @@
 
 `git ls-remote --tags`
 
-- Show all references from a remote repository based on name or url:
+- Show all references from a remote repository based on name or URL:
 
 `git ls-remote {{repository_url}}`
 

@@ -1,13 +1,13 @@
 # git log
 
 > Afficher un historique de commits.
-> Plus d'informations: <https://git-scm.com/docs/git-log>.
+> Plus d'informations : <https://git-scm.com/docs/git-log>.
 
-- Afficher la séquence de commits à partir de l'actuel, dans l'ordre chronologique inverse du dépôt git dans le répertoire de travail actuel :
+- Afficher la séquence de commits à partir de l'actuel, dans l'ordre chronologique inverse du dépôt Git dans le répertoire de travail actuel :
 
 `git log`
 
-- Afficher l'historique de fichiers ou repertoires en particulier :
+- Afficher l'historique de fichiers ou répertoires en particulier :
 
 `git log -p {{chemin/vers/fichier_ou_repertoire}}`
 
@@ -19,11 +19,11 @@
 
 `git log --oneline --graph`
 
-- Afficher un graphique de tout les commits, tags et branches dans le dépot entier :
+- Afficher un graphique de tout les commits, tags et branches dans le dépôt entier :
 
 `git log --oneline --decorate --all --graph`
 
-- Afficher uniqueent les commits dont le message contient la chaine (non sensible à la case) :
+- Afficher uniquement les commits dont le message contient la chaine (non sensible à la casse) :
 
 `git log -i --grep {{chaine_recherché}}`
 
@@ -31,6 +31,6 @@
 
 `git log -n {{number}} --author={{author}}`
 
-- Afficher les commits entre deux dates :
+- Afficher les commits entre deux dates (yyyy-mm-dd):
 
-`git log --before={{date}} --after={{date}}`
+`git log --before="{{2017-01-29}}" --after="{{2017-01-17}}"`

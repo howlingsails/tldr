@@ -1,7 +1,7 @@
 # pass
 
 > Tool for storing and reading passwords or other sensitive data.
-> All data is GPG-encrypted, and managed with a git repository.
+> All data is GPG-encrypted, and managed with a Git repository.
 > More information: <https://www.passwordstore.org>.
 
 - Initialize (or re-encrypt) the storage using one or more GPG IDs:
@@ -31,3 +31,7 @@
 - Initialize a new Git repository (any changes done by pass will be committed automatically):
 
 `pass git init`
+
+- Run a Git command on behalf of the password storage:
+
+`pass git {{command}}`

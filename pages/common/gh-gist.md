@@ -1,6 +1,6 @@
 # gh gist
 
-> Work with GitHub Gists on the command line.
+> Work with GitHub Gists on the command-line.
 > More information: <https://cli.github.com/manual/gh_gist>.
 
 - Create a new Gist from a space-separated list of files:
@@ -19,6 +19,6 @@
 
 `gh gist list --limit {{int}}`
 
-- View a Gist in the default browser without rendering markdown:
+- View a Gist in the default browser without rendering Markdown:
 
 `gh gist view {{id_or_url}} --web --raw`

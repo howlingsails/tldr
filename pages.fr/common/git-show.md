@@ -1,7 +1,7 @@
 # git show
 
-> Affiche différents types d'objets git (commits, tags, etc.).
-> Plus d'informations: <https://git-scm.com/docs/git-show>.
+> Affiche différents types d'objets Git (commits, tags, etc.).
+> Plus d'informations : <https://git-scm.com/docs/git-show>.
 
 - Afficher des informations sur le dernier commit (hachage, message, modifications et autres métadonnées) :
 
@@ -15,7 +15,7 @@
 
 `git show {{etiquette}}`
 
-- Affiche les informations a propos du 3éme commit en partant du sommet de la branche :
+- Affiche les informations à propos du 3ème commit en partant du sommet de la branche :
 
 `git show {{branche}}~{{3}}`
 

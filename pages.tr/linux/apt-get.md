@@ -2,8 +2,9 @@
 
 > Debian ve Ubuntu paket yönetim aracı.
 > Paket aramak için `apt-cache` komutunu kullanın.
+> Daha fazla bilgi için: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
 
-- Kullanılabilir paket ve versiyon listesini güncelleyin (diğer `apt-get` komutlarını çalıştırmadan önce kullanmanız önerilir)
+- Kullanılabilir paket ve versiyon listesini güncelleyin (diğer `apt-get` komutlarını çalıştırmadan önce kullanmanız önerilir):
 
 `apt-get update`
 
