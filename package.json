@@ -1,0 +1,9 @@
+{
+  "name": "kind-dnd",
+  "version": "1.0.0",
+  "description": "dnd-hosting-environment",
+  "main": "index.js",
+  "repository": "git@github.com:howlingsails/kind-dnd.git",
+  "author": "howlingsails <cap10bill@howlingsails.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,9 @@
+[submodule "Fantasy-Map-Generator"]
+	path = Fantasy-Map-Generator
+	url = git@github.com:howlingsails/Fantasy-Map-Generator.git
+[submodule "dnd5e-town-generator"]
+	path = dnd5e-town-generator
+	url = git@github.com:howlingsails/dnd5e-town-generator.git
+[submodule "opendnd"]
+	path = opendnd
+	url = git@github.com:howlingsails/opendnd.git
